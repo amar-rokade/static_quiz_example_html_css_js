@@ -1,0 +1,177 @@
+body {
+  font-size: 20px;
+  font-family: sans-serif;
+  color: #333;
+  background-image: url("/static/img/project/static_quiz_background.jpeg");
+}
+
+/* The sidebar menu */
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 25%; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #101e36; /* Black */
+  overflow-x: hidden;
+  /*padding-top: 100px;*/
+}
+
+/* Style page content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+.question {
+  font-weight: 600;
+}
+.answers {
+  margin-bottom: 20px;
+}
+.answers label {
+  display: block;
+}
+#submit {
+  font-family: sans-serif;
+  font-size: 20px;
+  background-color: #279;
+  color: #fff;
+  border: 0px;
+  border-radius: 3px;
+  padding: 10px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+#submit:hover {
+  background-color: #38a;
+}
+.content {
+  margin-left: 20%;
+  width: 70%;
+  border: 1px solid black;
+  padding: 20px 20px 20px 20px;
+  background-color: #161c29;
+  color: white;
+}
+#heading {
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+}
+
+.submit {
+  margin-left: 25%;
+}
+#back {
+  height: 30px;
+  margin-right: 50%;
+  font-size: 20px;
+  border: 0px;
+  cursor: pointer;
+  background-color: #313566;
+  color: white;
+}
+#next {
+  height: 30px;
+  font-size: 20px;
+  border: 0px;
+  cursor: pointer;
+  background-color: #313566;
+  color: white;
+}
+#back:hover {
+  background-color: white;
+  color: black;
+}
+#next:hover {
+  background-color: white;
+  color: black;
+}
+.bottom_navigator {
+  text-align: center;
+}
+#final {
+  text-align: center;
+  font-size: large;
+  visibility: hidden;
+  color: white;
+}
+
+#retry {
+  visibility: hidden;
+  font-family: sans-serif;
+  font-size: 20px;
+  background-color: #279;
+  color: #fff;
+  border: 0px;
+  border-radius: 3px;
+  padding: 10px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+#retry:hover {
+  background-color: #38a;
+}
+
+#user_form {
+  text-align: center;
+}
+#user_name {
+  height: 2em;
+  width: 500px;
+}
+.timer {
+  width: 100px;
+  font-size: 1.5em;
+  text-align: center;
+  margin-left: 10%;
+  color: white;
+  font-weight: bolder;
+}
+
+#user_name_second {
+  margin-right: 12%;
+  color: white;
+  font-weight: bolder;
+}
+
+label:hover {
+  background-color: #393c63;
+  cursor: pointer;
+}
+label {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.side_question_class {
+  font-size: medium;
+  padding-left: 20px;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.side_question_class:hover {
+  cursor: pointer;
+  background-color: #2d3f5e;
+}
+#current_user_result {
+  background-color: #2d3f5e;
+  padding: 10px 10px 10px 10px;
+  margin-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: white;
+}
+
+#not_current {
+  background-color: #2d3f5e;
+  padding: 10px 10px 10px 10px;
+  margin-left: 50px;
+  color: white;
+}
